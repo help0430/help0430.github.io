@@ -30,43 +30,78 @@
     </url>
 
     <url>
-        <loc>https://help0430.github.io/tags/Asp-Net-Core/</loc>
-        <lastmod>2018-07-19T04:47:14.531Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/tags/C/</loc>
-        <lastmod>2018-07-19T04:48:00.324Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/tags/Web-API/</loc>
-        <lastmod>2018-07-19T04:48:00.324Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://help0430.github.io/tags/ApplicationInsights/</loc>
-        <lastmod>2018-07-19T04:48:00.324Z</lastmod>
+        <lastmod>2018-07-20T07:03:31.464Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/tags/Test/</loc>
+        <lastmod>2018-07-20T08:34:20.859Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/tags/Swagger/</loc>
+        <lastmod>2018-07-20T08:34:58.557Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/tags/API/</loc>
+        <lastmod>2018-07-20T08:34:58.557Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/tags/SQL-Server/</loc>
+        <lastmod>2018-07-20T08:35:17.518Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://help0430.github.io/tags/CI-CD/</loc>
-        <lastmod>2018-07-19T04:48:17.608Z</lastmod>
+        <lastmod>2018-07-20T08:38:45.077Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://help0430.github.io/tags/VSTS/</loc>
-        <lastmod>2018-07-19T04:48:17.608Z</lastmod>
+        <lastmod>2018-07-20T08:38:56.278Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/tags/Azure/</loc>
+        <lastmod>2018-07-20T08:39:03.796Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/tags/C/</loc>
+        <lastmod>2018-07-20T08:41:34.489Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/tags/Asp-Net-Core/</loc>
+        <lastmod>2018-07-20T08:41:34.489Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/tags/Web-API/</loc>
+        <lastmod>2018-07-20T08:41:34.489Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

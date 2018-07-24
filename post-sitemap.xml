@@ -8,7 +8,15 @@
 
     <url>
         <loc>https://help0430.github.io/2018/07/23/Azure-CosmosDB-with-SQL-API/</loc>
-        <lastmod>2018-07-23T09:32:37.616Z</lastmod>
+        <lastmod>2018-07-24T10:18:54.547Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/2018/07/16/%E5%BB%BA%E7%AB%8BAzure%E5%85%B1%E5%90%8C%E7%AE%A1%E7%90%86%E5%93%A1/</loc>
+        <lastmod>2018-07-23T11:57:04.341Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -33,14 +41,6 @@
     <url>
         <loc>https://help0430.github.io/2018/04/24/%E5%B0%87-Form-Data-%E7%9A%84%E6%96%87%E5%AD%97%E8%B3%87%E6%96%99%E8%A6%96%E7%82%BA-Json/</loc>
         <lastmod>2018-07-20T08:41:25.938Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/2018/07/16/%E5%BB%BA%E7%AB%8BAzure%E5%85%B1%E5%90%8C%E7%AE%A1%E7%90%86%E5%93%A1/</loc>
-        <lastmod>2018-07-20T08:39:03.796Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

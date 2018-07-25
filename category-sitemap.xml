@@ -7,62 +7,6 @@
     </url>
 
     <url>
-        <loc>https://help0430.github.io/categories/C/</loc>
-        <lastmod>2018-07-19T04:45:30.074Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/categories/Web/Asp-Net-Core/Test/</loc>
-        <lastmod>2018-07-20T08:34:20.859Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/categories/SQL/</loc>
-        <lastmod>2018-07-20T08:35:17.518Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/categories/VSTS/CI-CD/</loc>
-        <lastmod>2018-07-20T08:38:45.077Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/categories/VSTS/</loc>
-        <lastmod>2018-07-20T08:38:56.278Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/categories/Web/</loc>
-        <lastmod>2018-07-23T08:24:35.789Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/categories/Web/Asp-Net-Core/</loc>
-        <lastmod>2018-07-23T08:24:35.789Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/categories/Web/Asp-Net-Core/API/</loc>
-        <lastmod>2018-07-23T08:24:35.789Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://help0430.github.io/categories/Azure/</loc>
         <lastmod>2018-07-24T10:18:54.547Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -72,6 +16,69 @@
     <url>
         <loc>https://help0430.github.io/categories/Azure/CosmosDB/</loc>
         <lastmod>2018-07-24T10:18:54.547Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/categories/Web/Asp-Net-Core/Test/</loc>
+        <lastmod>2018-07-24T14:42:54.291Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/categories/SQL/</loc>
+        <lastmod>2018-07-24T14:43:22.180Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/categories/C/</loc>
+        <lastmod>2018-07-24T14:43:59.648Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/categories/VSTS/</loc>
+        <lastmod>2018-07-24T14:44:22.208Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/categories/VSTS/CI-CD/</loc>
+        <lastmod>2018-07-24T14:44:22.208Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/categories/Web/</loc>
+        <lastmod>2018-07-24T14:44:30.589Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/categories/Web/Asp-Net-Core/</loc>
+        <lastmod>2018-07-24T14:44:30.589Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/categories/Web/Asp-Net-Core/API/</loc>
+        <lastmod>2018-07-24T14:44:30.589Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/categories/Firebase/</loc>
+        <lastmod>2018-07-25T08:38:51.906Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

@@ -7,6 +7,22 @@
     </url>
 
     <url>
+        <loc>https://help0430.github.io/2018/07/31/Azure-CosmosDB-%E5%85%A8%E5%9F%9F%E6%95%A3%E7%99%BC/</loc>
+        <lastmod>2018-07-31T07:23:39.460Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/2018/07/23/Azure-CosmosDB-with-SQL-API/</loc>
+        <lastmod>2018-07-31T06:24:22.235Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://help0430.github.io/2018/07/24/Cloud-Firestore-%E5%88%9D%E6%8E%A2/</loc>
         <lastmod>2018-07-25T08:49:57.449Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -137,14 +153,6 @@
     <url>
         <loc>https://help0430.github.io/2018/05/08/Asp-Net-Core-ClaimBase-%E6%8E%88%E6%AC%8A/</loc>
         <lastmod>2018-07-24T14:42:22.075Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/2018/07/23/Azure-CosmosDB-with-SQL-API/</loc>
-        <lastmod>2018-07-24T10:18:54.547Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

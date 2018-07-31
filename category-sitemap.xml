@@ -7,20 +7,6 @@
     </url>
 
     <url>
-        <loc>https://help0430.github.io/categories/Azure/</loc>
-        <lastmod>2018-07-24T10:18:54.547Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/categories/Azure/CosmosDB/</loc>
-        <lastmod>2018-07-24T10:18:54.547Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://help0430.github.io/categories/Web/Asp-Net-Core/Test/</loc>
         <lastmod>2018-07-24T14:42:54.291Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -79,6 +65,20 @@
     <url>
         <loc>https://help0430.github.io/categories/Firebase/</loc>
         <lastmod>2018-07-25T08:49:57.449Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/categories/Azure/</loc>
+        <lastmod>2018-07-31T07:23:39.460Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/categories/Azure/CosmosDB/</loc>
+        <lastmod>2018-07-31T07:23:39.460Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

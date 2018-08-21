@@ -7,6 +7,22 @@
     </url>
 
     <url>
+        <loc>https://help0430.github.io/2018/08/21/Asp-Net-Core-2-1-%E6%9E%B6%E6%A7%8B/</loc>
+        <lastmod>2018-08-21T09:26:54.999Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/2018/07/16/%E5%BB%BA%E7%AB%8BAzure%E5%85%B1%E5%90%8C%E7%AE%A1%E7%90%86%E5%93%A1/</loc>
+        <lastmod>2018-07-31T09:48:06.803Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://help0430.github.io/2018/07/31/Azure-CosmosDB-%E5%85%A8%E5%9F%9F%E6%95%A3%E7%99%BC/</loc>
         <lastmod>2018-07-31T07:31:03.872Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -153,14 +169,6 @@
     <url>
         <loc>https://help0430.github.io/2018/05/08/Asp-Net-Core-ClaimBase-%E6%8E%88%E6%AC%8A/</loc>
         <lastmod>2018-07-24T14:42:22.075Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/2018/07/16/%E5%BB%BA%E7%AB%8BAzure%E5%85%B1%E5%90%8C%E7%AE%A1%E7%90%86%E5%93%A1/</loc>
-        <lastmod>2018-07-23T11:57:04.341Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

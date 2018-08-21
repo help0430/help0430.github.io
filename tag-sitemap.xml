@@ -86,64 +86,64 @@
     </url>
 
     <url>
-        <loc>https://help0430.github.io/tags/Firebase/</loc>
-        <lastmod>2018-07-25T08:49:57.449Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/tags/Cloud-Firestore/</loc>
-        <lastmod>2018-07-25T08:49:57.449Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/tags/Cloud/</loc>
-        <lastmod>2018-07-25T08:49:57.449Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://help0430.github.io/tags/Asp-Net-Core/</loc>
-        <lastmod>2018-07-31T07:31:03.872Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/tags/CosmosDB/</loc>
-        <lastmod>2018-07-31T07:31:03.872Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/tags/DocumentDB/</loc>
-        <lastmod>2018-07-31T07:31:03.872Z</lastmod>
+        <lastmod>2018-08-21T09:36:20.874Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://help0430.github.io/tags/Azure/</loc>
-        <lastmod>2018-07-31T09:48:06.803Z</lastmod>
+        <lastmod>2018-08-21T09:36:20.874Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/tags/CosmosDB/</loc>
+        <lastmod>2018-08-21T09:36:20.874Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/tags/DocumentDB/</loc>
+        <lastmod>2018-08-21T09:36:20.874Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://help0430.github.io/tags/C/</loc>
-        <lastmod>2018-08-21T09:26:54.999Z</lastmod>
+        <lastmod>2018-08-21T09:36:33.456Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://help0430.github.io/tags/Asp-Net-Core-2-1/</loc>
-        <lastmod>2018-08-21T09:26:54.999Z</lastmod>
+        <lastmod>2018-08-21T09:36:33.456Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/tags/Firebase/</loc>
+        <lastmod>2018-08-21T09:37:08.335Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/tags/Cloud-Firestore/</loc>
+        <lastmod>2018-08-21T09:37:08.335Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/tags/Cloud/</loc>
+        <lastmod>2018-08-21T09:37:08.335Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

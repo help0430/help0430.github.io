@@ -114,20 +114,6 @@
     </url>
 
     <url>
-        <loc>https://help0430.github.io/tags/C/</loc>
-        <lastmod>2018-08-21T09:36:33.456Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://help0430.github.io/tags/Asp-Net-Core-2-1/</loc>
-        <lastmod>2018-08-21T09:36:33.456Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://help0430.github.io/tags/Firebase/</loc>
         <lastmod>2018-08-21T09:37:08.335Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -144,6 +130,20 @@
     <url>
         <loc>https://help0430.github.io/tags/Cloud/</loc>
         <lastmod>2018-08-21T09:37:08.335Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/tags/C/</loc>
+        <lastmod>2018-08-21T17:44:22.542Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://help0430.github.io/tags/Asp-Net-Core-2-1/</loc>
+        <lastmod>2018-08-21T17:44:22.542Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

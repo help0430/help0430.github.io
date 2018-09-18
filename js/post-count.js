@@ -1,1 +1,5 @@
-var postCount=document.getElementById("post-count");
+var postCount = document.getElementById('post-count');
+
+if (postCount != null) {
+
+}

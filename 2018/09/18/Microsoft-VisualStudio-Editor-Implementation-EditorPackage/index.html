@@ -26,11 +26,11 @@
     
     <title>
         
-          使用 VSTS 的 Build Release 佈署 Asp.Net Core Web API - Help&#39;s blog
+          Microsoft.VisualStudio.Editor.Implementation.EditorPackage - Help&#39;s blog
         
     </title>
 
-    <link rel="canonical" href="https://help0430.github.io/2018/06/19/使用-VSTS-的-Build-Release-佈署-Asp-Net-Core-Web-API/">
+    <link rel="canonical" href="https://help0430.github.io/2018/09/18/Microsoft-VisualStudio-Editor-Implementation-EditorPackage/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -101,20 +101,12 @@
                     <div class="post-heading">
                         <div class="tags">
                             
-                              <a class="tag" href="/tags/#VSTS" title="VSTS">VSTS</a>
-                            
-                              <a class="tag" href="/tags/#CI/CD" title="CI/CD">CI/CD</a>
-                            
                         </div>
-                        <h1>使用 VSTS 的 Build Release 佈署 Asp.Net Core Web API</h1>
+                        <h1>Microsoft.VisualStudio.Editor.Implementation.EditorPackage</h1>
                         <h2 class="subheading"></h2>
                         <span class="meta">
                             Posted by Help on
-                            2018-06-19
-                        </span>
-                        
-                        <span class="meta">
-                            views <span id="view-count"></span>
+                            2018-09-18
                         </span>
                         
                     </div>
@@ -126,36 +118,6 @@
         </div>
     </div>
 </header>
-
-    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-firestore.js"></script>
-    <script>
-        // Initialize Firebase
-        firebase.initializeApp({
-            apiKey: "AIzaSyDVHr4A38Wld_bYEZUYhpXkNu6cVvLBE00",
-            authDomain: "hexo-github-blog.firebaseapp.com",
-            projectId: "hexo-github-blog"
-        });
-    
-        // Initialize Cloud Firestore through Firebase
-        var db = firebase.firestore();
-        var viewCount = document.querySelector("#view-count");
-        var docRef = db.doc("posts/2018-06-19 16:18:42");
-        docRef.get().then(function(doc){
-            if(doc.exists){
-                var count = doc.data().count + 1;
-                docRef.set({count:count});
-            }else{
-                docRef.set({count:1});
-            }
-        });
-        docRef.onSnapshot(function(doc){
-            if(doc.exists){
-                viewCount.innerText = doc.data().count;
-            }
-        });
-        
-    </script>
 
 	
     <!-- Navigation -->
@@ -253,94 +215,16 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-                <p>先決條件</p>
-<ul>
-<li>在 VSTS 的 Git 有程式碼</li>
-<li>有 Azure App Service</li>
-</ul>
-<p>點選 Build &amp; Release &gt; New &gt; ASP.NET Core<br>
-<img src="image1.png" alt="image.png"></p>
-<p>預設出現下面選項<br>
-<img src="image2.png" alt="image.png"></p>
-<p>在 Task 頁簽中，左邊是項目右邊是參數<br>
-第一個項目 Process</p>
-<ul>
-<li>Name: 可以自己取</li>
-<li>Default agent queue: 如果是 Asp.Net Core 專案必須使用 Hosted VS2017</li>
-<li>Project(s) to restore and build: 自己決定是要編譯那些專案</li>
-<li>Project(s) to test: 單元測試專案</li>
-</ul>
-<p>第二個項目 Get Resources<br>
-選擇程式碼來源</p>
-<p>第三個項目 Restore<br>
-負責 nuget 套件下載，不用改變</p>
-<p>第四個項目 Build<br>
-負責編譯，不用改變<br>
-其中 Arguments 的 $(BuildConfiguration) 變數可以在 Variables 頁簽修改</p>
-<p>第五個項目 Test<br>
-設定測試專案，不用改變</p>
-<p>第六個項目 Publish<br>
-負責做出佈署檔，不用改變<br>
-其中 Arguments 的 $(build.artifactstagingdirectory) 變數可以參考<a href="https://www.visualstudio.com/zh-tw/docs/build/define/variables" target="_blank" rel="noopener">Build variables</a><br>
-如果我們的專案只有 web api，那麼 Publish Web Projects 必須取消打勾，並輸入web api 的專案位置。(例如 **\api.csproj)<br>
-Zip Published Projects 打勾</p>
-<p>最後一個 Publish Artifact<br>
-他會在 Path to Publish 的路徑下建立一個 Artifact Name 的目錄，並且產生一個發佈號碼，讓 release 可以取得</p>
-<p>最後移動到 Triggers 頁簽，將 Continuous Integration 選項啟動，必選擇要監測的分支<br>
-<img src="image3.png" alt="image.png"></p>
-<p>設定到此即可，點選右上角的 Save &amp; Queue，<br>
-如果想要直接執行，就選 Save &amp; Queue，不執行就選 Save。</p>
-<p>執行之後我們可以點選 Build 編號察看 LOG<br>
-從 Log 可以看出，在編譯的時候，<br>
-source code 是在 d:\a\1\s 底下，<br>
-編譯後 publish 會將檔案從 d:\a\1\s 搬到 d:\a\1\a<br>
-此時搬過來的檔案就是可以佈署的那個 zip 檔<br>
-接著在 Publish Artifact 的時候會出現 Upload ‘d:\a\1\a’ to file container: '#/107742/drop’<br>
-就是把 d:\a\1\a 裡面的檔案發佈到 #/107742/drop，這讓之後 release 的設定可以拿到需要的檔案。</p>
-<p>建置成功之後，直接點選 release<br>
-<img src="image4.png" alt="image.png"></p>
-<p>就可以接著設定發佈方式。<br>
-選擇 Azure App Service Deployment，<br>
-<img src="image5.png" alt="image.png"></p>
-<p>會出現如下圖設定<br>
-<img src="image6.png" alt="image.png"></p>
-<p>Environment name 可以隨便取，然後選擇左邊 Task 頁簽，<br>
-看 Deploy Azure App Service 項目<br>
-<img src="image7.png" alt="image.png"></p>
-<p>1 是顯示名稱，隨便取<br>
-2 是訂閱帳號<br>
-3 是可用的 Azure App Service，2 有設定的話就會自動找到你能使用的。<br>
-4 是要佈署的檔案位置，也就是之前 build 的時候執行 Publish Artifact 項目匯出的位置，也就是 #/107742/drop 這個位置<br>
-這要設定正確，但如果前面都用預設值，就不必動他。</p>
-<p>在往下看 Additional Deployment Options 這個群組<br>
-<img src="image8.png" alt="image.png"></p>
-<p>Take App Offline 要打勾，否則當 Web Api 啟動後，再次佈署更新時，會出現 FILE_IN_USE 的錯誤<br>
-Publish using Web Deploy 取消打勾。</p>
-<p>設定就到此完成，按下存檔<br>
-之後可以馬上選擇旁邊的 release &gt; Create release 執行佈署<br>
-<img src="image9.png" alt="image.png"></p>
-<p>總結 VSTS 的 CI\CD 流程如下圖<br>
-<img src="image10.png" alt="image.png"><br>
-綠色部分 CD 時會自己執行，</p>
-<p>GetResource 會從 git 將檔案下載<br>
-Publish 會產生zip 檔<br>
-Publish Artifact 會將檔案發佈到一個共享的 container<br>
-Download Artifacts 會將共享的檔案複製回工作目錄<br>
-Azure App Service Deploy 佈署到 Azure App Service</p>
-
+                
                 
 
                 <hr>
                 <!-- Pager -->
                 <ul class="pager">
                     
-                        <li class="previous">
-                            <a href="/2018/06/25/VSTA-Deploy-出現-ERROR-FILE-IN-USE-的錯誤解決方法/" data-toggle="tooltip" data-placement="top" title="VSTA Deploy 出現 ERROR_FILE_IN_USE 的錯誤解決方法">&larr; Previous Post</a>
-                        </li>
-                    
                     
                         <li class="next">
-                            <a href="/2018/06/11/SQL-Server-專案/" data-toggle="tooltip" data-placement="top" title="SQL Server 專案">Next Post &rarr;</a>
+                            <a href="/2018/09/18/Visual-Studio-2017-EditorConfig/" data-toggle="tooltip" data-placement="top" title="Visual Studio 2017 EditorConfig Naming Conventions">Next Post &rarr;</a>
                         </li>
                     
                 </ul>
@@ -369,10 +253,6 @@ Azure App Service Deploy 佈署到 Azure App Service</p>
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
                        
-                          <a class="tag" href="/tags/#VSTS" title="VSTS">VSTS</a>
-                        
-                          <a class="tag" href="/tags/#CI/CD" title="CI/CD">CI/CD</a>
-                        
                     </div>
                 </section>
                 
@@ -403,8 +283,8 @@ Azure App Service Deploy 佈署到 Azure App Service</p>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "help0430-github-io";
-    var disqus_identifier = "https://help0430.github.io/2018/06/19/使用-VSTS-的-Build-Release-佈署-Asp-Net-Core-Web-API/";
-    var disqus_url = "https://help0430.github.io/2018/06/19/使用-VSTS-的-Build-Release-佈署-Asp-Net-Core-Web-API/";
+    var disqus_identifier = "https://help0430.github.io/2018/09/18/Microsoft-VisualStudio-Editor-Implementation-EditorPackage/";
+    var disqus_url = "https://help0430.github.io/2018/09/18/Microsoft-VisualStudio-Editor-Implementation-EditorPackage/";
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

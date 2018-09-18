@@ -142,7 +142,7 @@
         // Initialize Cloud Firestore through Firebase
         var db = firebase.firestore();
         var viewCount = document.querySelector("#view-count");
-        var docRef = db.doc("posts/2018-05-15 15:15:54");
+        var docRef = db.collection("posts").doc("2018-05-15 15:15:54");
         docRef.get().then(function(doc){
             if(doc.exists){
                 var count = doc.data().count + 1;

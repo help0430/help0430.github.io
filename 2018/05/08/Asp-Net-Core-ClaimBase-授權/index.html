@@ -148,7 +148,13 @@
                 var count = doc.data().count + 1;
                 docRef.set({count:count});
             }else{
-                docRef.set({count:1});
+                docRef.set({count:1})
+                .then(function (docRef) {
+                    console.log("Document written with ID: ", docRef.id);
+                })
+                .catch(function (error) {
+                    console.error("Error adding document: ", error);
+                });
             }
         });
         docRef.onSnapshot(function(doc){
